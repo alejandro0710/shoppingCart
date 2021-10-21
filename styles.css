@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.div-card {
+  padding: 5px;
+  margin: 5px;
+  border: red 1px solid;
+}
+
+.card {
+  width: 150px;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.table {
+  margin-left: 50px;
+  width: 60%;
+}

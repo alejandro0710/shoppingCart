@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Shop of Riot Games</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>SHOP OF RIOT GAMES</h1>
+      <hr />
+    </div>
+    <div class="cards"></div>
+    <hr />
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Item</th>
+          <th>Cantidad</th>
+          <th>Acción</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody class="items"></tbody>
+      <tfoot>
+        <tr class="footer">
+          <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- templates -->
+    <template class="template-card">
+      <div class="div-card">
+        <div class="card">
+          <img src="" alt="" />
+          <div class="card-body">
+            <h5>Titulo</h5>
+            <p class="tipe">tipo</p>
+            <p class="price">precio</p>
+            <button class="btn btn-dark">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <template class="template-footer">
+      <th scope="row" colspan="2">Total productos</th>
+      <td>10</td>
+      <td>
+        <button class="btn btn-danger btn-sm vaciar-carrito">
+          vaciar todo
+        </button>
+      </td>
+      <td class="font-weight-bold">$ <span>5000</span></td>
+    </template>
+
+    <template class="template-carrito">
+      <tr>
+        <th>id</th>
+        <td>Café</td>
+        <td>1</td>
+        <td>
+          <button class="btn btn-info btn-sm">+</button>
+          <button class="btn btn-danger btn-sm">-</button>
+        </td>
+        <td>RP <span>500</span></td>
+      </tr>
+    </template>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+[
+    {
+        "price": 6300,
+        "id": 1,
+        "title": "PYKE",
+        "tipe": "Assasin",
+        "thumbnailUrl": "https://www.mobafire.com/images/champion/skins/landscape/pyke-blood-moon-762x.jpg"
+    },
+    {
+        "price": 4800,
+        "id": 2,
+        "title": "GANGPLANK",
+        "tipe": "Fighter",
+        "thumbnailUrl": "https://www.mobafire.com/images/champion/skins/landscape/gangplank-captain-762x.jpg"
+    },
+    {
+        "price": 3150,
+        "id": 3,
+        "title": "KATARINA",
+        "tipe": "Wizard",
+        "thumbnailUrl": "https://www.mobafire.com/images/champion/skins/landscape/katarina-classic-762x.jpg"
+    },
+    {
+        "price": 4800,
+        "id": 4,
+        "title": "JINX",
+        "tipe": "Shooter",
+        "thumbnailUrl": "https://www.mobafire.com/images/champion/skins/landscape/jinx-odyssey-762x.jpg"
+    },
+    {
+        "price": 3150,
+        "id": 5,
+        "title": "TAHM KENCH",
+        "tipe": "Support",
+        "thumbnailUrl": "https://www.mobafire.com/images/champion/skins/landscape/tahm-kench-master-chef-762x.jpg"
+    },
+    {
+        "price": 4800,
+        "id": 6,
+        "title": "VOLIbEAR",
+        "tipe": "Tank",
+        "thumbnailUrl": "https://www.mobafire.com/images/champion/skins/landscape/volibear-the-thousand-pierced-bear-762x.jpg"
+    }
+]
